@@ -19,4 +19,21 @@ public class LicensePlate {
         return country + " " + liNumber;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        // if the object references the same location
+        if (this == o) return true;
+
+        // if the object is not a LicensePlate instance
+        if (!(o instanceof LicensePlate)) return false;
+
+        LicensePlate that = (LicensePlate) o;
+        return Objects.equals(liNumber, that.liNumber) &&
+                Objects.equals(country, that.country);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(liNumber, country);
+    }
 }
