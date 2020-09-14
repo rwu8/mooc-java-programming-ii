@@ -11,17 +11,18 @@ public class VehicleRegistry {
     public boolean add(LicensePlate licensePlate, String owner) {
         if (this.registry.containsKey(licensePlate)) {
             return false;
-        }
-        this.registry.put(licensePlate, owner);
-        return true;
+        } else {
+        	this.registry.put(licensePlate, owner);
+        	return true;
+		}
     }
 
     public String get(LicensePlate licensePlate) {
         if (this.registry.containsKey(licensePlate)) {
-            this.registry.get(licensePlate);
-        }
-
-        return null;
+            return this.registry.get(licensePlate);
+        } else {
+        	return null;
+		}
     }
 
     public boolean remove(LicensePlate licensePlate) {
@@ -41,8 +42,14 @@ public class VehicleRegistry {
     public void printOwners() {
         ArrayList<String> owners = new ArrayList<>();
 
-        for (LicensePlate licensePlate: this.registry.keySet()) {
-            owners.add(licensePlate)
+        for (String owner: this.registry.values()) {
+            if (!owners.contains(owner)) {
+            	owners.add(owner);
+			}
         }
+
+        for (String owner: owners) {
+			System.out.println(owner);
+		}
     }
 }
