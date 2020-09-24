@@ -20,12 +20,7 @@ public class Suitcase {
     }
 
     public int totalWeight() {
-        int summa = 0;
-        int indeksi = 0;
-        while (indeksi < this.Items.size()) {
-        summa += this.Items.get(indeksi).getweight();
-        indeksi++;
-        }
+        int summa = Items.stream().mapToInt(Item::getWeight).sum();
         return summa;
     }
 

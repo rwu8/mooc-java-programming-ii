@@ -9,6 +9,10 @@ public class PositiveNumbers {
         Scanner scanner = new Scanner(System.in);
         // test your method here
 
+
     }
 
+	public static List<Integer> positive(List<Integer> numbers) {
+    	return numbers.stream().filter(s -> s > 0).collect(Collectors.toList());
+	};
 }
