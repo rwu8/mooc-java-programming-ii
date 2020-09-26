@@ -1,2 +1,5 @@
-public class E extends C {
+import java.util.ArrayList;
+
+public class E {
+    private ArrayList<C> c;
 }
