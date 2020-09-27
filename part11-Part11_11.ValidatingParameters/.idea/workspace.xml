@@ -1,10 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="68ab09c1-c3da-44e9-8066-a3630392d248" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/validating/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/validating/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/validating/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/validating/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part11-Part11_08.FirstPackages/Part11_08.FirstPackages.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part11-Part11_09.TheThreePackages/Part11_09.ThreePackages.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part11-Part11_10.FlightControl/Part11_10.FlightControl.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Part11_11.ValidatingParameters.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part11-Part11_12.SensorsAndTemperature/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part11-Part11_12.SensorsAndTemperature/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part11-Part11_12.SensorsAndTemperature/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part11-Part11_12.SensorsAndTemperature/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part11-Part11_12.SensorsAndTemperature/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part11-Part11_12.SensorsAndTemperature/.idea/libraries/Maven__fi_helsinki_cs_tmc_edu_test_utils_0_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part11-Part11_12.SensorsAndTemperature/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part11-Part11_12.SensorsAndTemperature/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part11-Part11_12.SensorsAndTemperature/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part11-Part11_12.SensorsAndTemperature/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part11-Part11_12.SensorsAndTemperature/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part11-Part11_12.SensorsAndTemperature/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part11-Part11_12.SensorsAndTemperature/Part11_12.SensorsAndTemperature.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part11-Part11_12.SensorsAndTemperature/src/main/java/application/AverageSensor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part11-Part11_12.SensorsAndTemperature/src/main/java/application/StandardSensor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part11-Part11_12.SensorsAndTemperature/src/main/java/application/TemperatureSensor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../part11-Part11_12.SensorsAndTemperature/src/main/java/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/../part11-Part11_12.SensorsAndTemperature/src/main/java/application/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
